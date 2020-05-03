@@ -1,0 +1,15 @@
+Battle Plan
+
+Class Individual:
+- Attributes => phenotype
+- Methods => getPhenotype(), setPhenotype()
+
+Class Population:
+- Attributes => individuals, (popSize)
+- Methods => addIndividual(), removeIndividual(), calculateFreq(), printFreq()
+
+Class Landscape:
+- Attributes => populations, (numPop), popSize, dispersalMatrix
+- Methods => probabilityMigration(), plotPhenoFreq(), plotPopSizes()
+
+
