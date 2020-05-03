@@ -5,7 +5,7 @@ Class Individual:
 - Methods => getPhenotype(), setPhenotype()
 
 Class Population:
-- Attributes => individuals, (popSize)
+- Attributes => popSize, individuals
 - Methods => addIndividual(), removeIndividual(), calculateFreq(), printFreq()
 
 Class Landscape:
